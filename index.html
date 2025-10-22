@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medicine Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <br /><br />
+    <h2 align="center">Medicine Registration Form</h2>
+    <form action="/medicines" method="POST" align="center">
+      <label for="id">Medicine Id:</label><br />
+      <input type="number" id="id" name="id" required /><br /><br />
+
+      <label for="mname">Medicine Name:</label><br />
+      <input type="text" id="mname" name="mname" required /><br /><br />
+
+      <label for="date">Expiry Date:</label><br />
+      <input type="date" id="date" name="date" required /><br /><br />
+
+      <label for="name">Patient Name:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="phone">Phone Number:</label><br />
+      <input type="tel" id="phone" name="phone" required /><br /><br />
+
+      <input type="submit" value="Register" /><br />
+    </form>
+  </body>
+</html>
