@@ -60,8 +60,11 @@ Users can:
 ## File Structure
 
 ├── index.html # Medicine Registration Form (HTML)
+
 ├── server.js # Express server with MongoDB integration
+
 ├── style.css # Styling for the form (optional)
+
 ├── package.json # Dependencies for the Node.js project
 
 ---
