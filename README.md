@@ -85,10 +85,10 @@ Users can:
 
 ## Example Request (with curl)
 
-# Register a new medicine (JSON)
-curl -X POST http://localhost:3000/medicines
--H "Content-Type: application/json"
--d '{"mname":"Paracetamol","date":"2025-11-01","name":"John Doe","phone":"1234567890"}'
+### Register a new medicine (JSON)
+- curl -X POST http://localhost:3000/medicines
+- -H "Content-Type: application/json"
+- -d '{"mname":"Paracetamol","date":"2025-11-01","name":"John Doe","phone":"1234567890"}'
 
 ---
 
